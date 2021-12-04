@@ -1,0 +1,42 @@
+{
+    "title": "Automated Dispenser by Harsh",
+    "heading": "Project Automated Dispenser",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "startButton": "Next",
+    "categoryTitle": "Please enter your Aadhar number",
+    "categoryDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "categoryDescriptionFooter": "Category will be randomly retreived based on Aadhar number.",
+    "dispenseWaitTime": 10000,
+    "dispenseDescription": "Please dispense only once per Aadhar number.",
+    "loaderTitle": "Dispensing",
+    "loaderDescription": "Please wait while the item is getting dispensed in accordance with the quantity by category.",
+    "doneTitle": "Collect Items",
+    "doneDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "categories": [{
+            "title": "APL",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "items": [{
+                    "name": "Rice",
+                    "quantity": 1
+                },
+                {
+                    "name": "Dal",
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "title": "BPL",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "items": [{
+                    "name": "Rice",
+                    "quantity": 0.5
+                },
+                {
+                    "name": "Dal",
+                    "quantity": 0.5
+                }
+            ]
+        }
+    ]
+}

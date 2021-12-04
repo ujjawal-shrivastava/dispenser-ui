@@ -1,0 +1,19 @@
+.loader-base {
+    display: flex;
+    align-items: center;
+    color: #3d3d3d;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.loader-title {
+    margin-top: 1.2rem;
+    font-size: 2.5rem;
+}
+
+.loader-description {
+    white-space: pre-line;
+    color: #636e72;
+    margin-top: 1rem;
+}

@@ -1,0 +1,17 @@
+.button-component {
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    white-space: nowrap;
+}
+
+.button-component:hover {
+    filter: brightness(95%);
+}
+
+.button-icon {
+    font-size: 1.8rem;
+    margin-right: 1rem;
+}

@@ -1,0 +1,54 @@
+.category-page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    color: #3d3d3d;
+    flex-direction: column;
+}
+
+.category-title {
+    font-size: 2.5rem;
+}
+
+.category-description {
+    text-align: justify;
+    text-align-last: center;
+    margin: 3rem 0;
+    font-size: 1.2rem;
+}
+
+.category-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.category-description-each {
+    color: #636e72;
+    margin-top: 3rem;
+}
+
+.aadhar-input {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    font-size: 2.2rem;
+    outline: none;
+    border: solid 2px white;
+    border-radius: 0.5rem;
+    letter-spacing: 0.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.aadhar-input:focus,
+.aadhar-input:hover {
+    border-color: #2980b9;
+}
+
+.aadhar-input::placeholder {
+    letter-spacing: 0.8rem;
+}
