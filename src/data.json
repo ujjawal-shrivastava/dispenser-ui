@@ -1,40 +1,40 @@
 {
-    "title": "Automated Dispenser by Harsh",
-    "heading": "Project Automated Dispenser",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "title": "IoT based Public Distribution System",
+    "heading": "IoT based Public Distribution System",
+    "description": "",
     "startButton": "Next",
     "categoryTitle": "Please enter your Aadhar number",
-    "categoryDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-    "categoryDescriptionFooter": "Category will be randomly retreived based on Aadhar number.",
+    "categoryDescription": "Entering your aadhar number will verify the category you belong to and ration will be given accordingly",
+    "categoryDescriptionFooter": "",
     "dispenseWaitTime": 10000,
-    "dispenseDescription": "Please dispense only once per Aadhar number.",
+    "dispenseDescription": "Click and wait for the process to complete",
     "loaderTitle": "Dispensing",
-    "loaderDescription": "Please wait while the item is getting dispensed in accordance with the quantity by category.",
+    "loaderDescription": "Please wait while the item is getting dispensed in accordance with the quantity by your category.",
     "doneTitle": "Collect Items",
-    "doneDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "doneDescription": "Your food items are ready to collect!",
     "categories": [{
             "title": "APL",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "description": "Food items can be dispensed only once per Aadhar card.",
             "items": [{
                     "name": "Rice",
-                    "quantity": 1
+                    "quantity": 100
                 },
                 {
                     "name": "Dal",
-                    "quantity": 1
+                    "quantity": 100
                 }
             ]
         },
         {
             "title": "BPL",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "description": "Food items can be dispensed only once per Aadhar card.",
             "items": [{
                     "name": "Rice",
-                    "quantity": 0.5
+                    "quantity": 50
                 },
                 {
                     "name": "Dal",
-                    "quantity": 0.5
+                    "quantity": 50
                 }
             ]
         }

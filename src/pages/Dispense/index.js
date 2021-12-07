@@ -34,7 +34,7 @@ export default function Dispense() {
       ) : (
         <>
           <h1 className="dispense-title">
-            Your category is{" "}
+            You belong to{" "}
             <span className="dispense-category-name">{category.title}</span>
           </h1>
           <p className="dispense-description">{category.description}</p>
@@ -68,7 +68,7 @@ const Item = ({ name, quantity }) => {
         <FontAwesomeIcon icon={faSeedling} />
       </span>
       <h1 className="item-name">{name}</h1>
-      <p className="item-quantity">{quantity} Kg</p>
+      <p className="item-quantity">{quantity} g</p>
     </div>
   );
 };
